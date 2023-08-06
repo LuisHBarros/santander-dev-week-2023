@@ -3,13 +3,13 @@
     <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/corretto-17.0.7" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
     <envs>
-      <env name="SPRING_PROFILES_ACTIVE" value="prd" />
-      <env name="DATABASE_URL" value="postgresql://postgres:3GE9AXZeMR3l7AkvyFrO@containers-us-west-137.railway.app:6658/railway" />
+      <env name="DATABASE_URL" value="postgresql://postgres:0usuCOBRUhpPbTPf1hVx@containers-us-west-209.railway.app:6662/railway" />
       <env name="PGDATABASE" value="railway" />
-      <env name="PGHOST" value="containers-us-west-137.railway.app" />
-      <env name="PGPASSWORD" value="3GE9AXZeMR3l7AkvyFrO" />
-      <env name="PGPORT" value="6658" />
+      <env name="PGHOST" value="containers-us-west-209.railway.app" />
+      <env name="PGPASSWORD" value="0usuCOBRUhpPbTPf1hVx" />
+      <env name="PGPORT" value="6662" />
       <env name="PGUSER" value="postgres" />
+      <env name="SPRING_PROFILES_ACTIVE" value="prd" />
     </envs>
     <option name="MAIN_CLASS_NAME" value="me.dio.SantanderDevWeek2023Application" />
     <module name="santander-dev-week-2023.main" />
