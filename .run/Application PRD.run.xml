@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Application PRD" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/corretto-17.0.7" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <envs>
+      <env name="SPRING_PROFILES_ACTIVE" value="prd" />
+      <env name="DATABASE_URL" value="postgresql://postgres:3GE9AXZeMR3l7AkvyFrO@containers-us-west-137.railway.app:6658/railway" />
+      <env name="PGDATABASE" value="railway" />
+      <env name="PGHOST" value="containers-us-west-137.railway.app" />
+      <env name="PGPASSWORD" value="3GE9AXZeMR3l7AkvyFrO" />
+      <env name="PGPORT" value="6658" />
+      <env name="PGUSER" value="postgres" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="me.dio.SantanderDevWeek2023Application" />
+    <module name="santander-dev-week-2023.main" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
